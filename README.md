@@ -26,6 +26,10 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 # Demonstration
 
+Remarks: This LCD driver does not clearly mention the support of 16-bit 5-6-5 RGB DT=0x0E.
+
+During validation, using DT=oxoE return an abnormal color pattern.
+
 ## Test Patterns
 
 |BPP,FPS,FPGA|Video|
