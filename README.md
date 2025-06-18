@@ -30,6 +30,10 @@ Remarks: This LCD driver does not clearly mention the support of 16-bit 5-6-5 RG
 
 During validation, using DT=oxoE return an abnormal color pattern.
 
+Confirmation (🟢 DONE): After contacting with "New Vision Microelectronics", internal design team confirmed silicon bug, 16 bit DT=0x0E is abnormal.
+
+So 16 bit RGB is not supported in this LCD driver.
+
 ## Test Patterns
 
 |BPP,FPS,FPGA|Video|
